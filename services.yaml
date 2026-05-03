@@ -1,0 +1,6 @@
+open:
+  description: "Otwiera bramę (Sekwencja STOP -> OPEN_A)"
+close:
+  description: "Zamyka bramę (Sekwencja STOP -> OPEN_B)"
+stop:
+  description: "Zatrzymuje bramę (Impuls STOP)"
