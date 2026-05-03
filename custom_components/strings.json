@@ -1,0 +1,20 @@
+{
+  "title": "Hexagonal Gate",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Konfiguracja sterownika bramy",
+        "description": "Wybierz encje przekaźników sterujących Twoją bramą.",
+        "data": {
+          "stop_switch": "Przekaźnik STOP",
+          "open_a_switch": "Przekaźnik Otwarcie Częściowe (A)",
+          "open_b_switch": "Przekaźnik Otwarcie Pełne (B)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie udało się połączyć z urządzeniem",
+      "unknown": "Wystąpił nieoczekiwany błąd"
+    }
+  }
+}
