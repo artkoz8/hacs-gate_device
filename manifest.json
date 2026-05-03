@@ -1,7 +1,8 @@
 {
   "domain": "hex_gate",
   "name": "Hexagonal Gate",
+  "config_flow": true,
   "codeowners": [],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "iot_class": "local_push"
 }
