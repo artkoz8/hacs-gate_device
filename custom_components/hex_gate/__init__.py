@@ -3,10 +3,10 @@ import logging
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 
-from .const import DOMAIN, CONF_STOP_SWITCH, CONF_OPEN_A_SWITCH, CONF_OPEN_B_SWITCH
-from .infrastructure.adapter.faac740_physical_gate_adapter import Faac740PhysicalGateAdapter
-from .domain.model.gate_aggregate import GateAggregate
-from .application.gate_service import GateService
+from custom_components.hex_gate.const import DOMAIN, CONF_STOP_SWITCH, CONF_OPEN_A_SWITCH, CONF_OPEN_B_SWITCH
+from custom_components.hex_gate.infrastructure.adapter.faac740_physical_gate_adapter import Faac740PhysicalGateAdapter
+from custom_components.hex_gate.domain import GateAggregate
+from custom_components.hex_gate.application.gate_service import GateService
 
 _LOGGER = logging.getLogger(__name__)
 
