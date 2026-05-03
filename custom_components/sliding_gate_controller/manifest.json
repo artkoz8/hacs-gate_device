@@ -2,7 +2,7 @@
   "domain": "sliding_gate_controller",
   "name": "Sterownik Bramy Przesuwnej",
   "config_flow": true,
-  "version": "1.1.0",
+  "version": "1.1.2",
   "iot_class": "local_push",
   "codeowners": ["@artkoz8"],
   "requirements": []

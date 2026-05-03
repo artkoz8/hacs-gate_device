@@ -1,7 +1,7 @@
 import logging
 from homeassistant.core import HomeAssistant
 
-# Cofamy się o dwa poziomy do hex_gate, potem do domain
+# Cofamy się o dwa poziomy do sliding_gate_controller, potem do domain
 from ..domain.model.gate_aggregate import GateAggregate
 from ..const import DOMAIN
 

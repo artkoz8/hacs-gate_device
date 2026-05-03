@@ -17,9 +17,9 @@ Projekt został podzielony na wyraźne warstwy zgodnie z zasadą *Screaming Arch
 ## 🚀 Funkcjonalności
 - Pełna izolacja logiki sterowania od infrastruktury.
 - Obsługa specyficznej sekwencji impulsów dla sterowników FAAC.
-- Publikowanie zdarzeń `hex_gate_event` na szynie zdarzeń HA, co pozwala na łatwe podpięcie automatyzacji (np. oświetlenia podjazdu).
+- Publikowanie zdarzeń `sliding_gate_controller_event` na szynie zdarzeń HA, co pozwala na łatwe podpięcie automatyzacji (np. oświetlenia podjazdu).
 
 ## 🛠️ Konfiguracja
 Integracja jest ładowana manualnie. W `configuration.yaml` należy dodać wpis:
 ```yaml
-hex_gate:
+sliding_gate_controller:
