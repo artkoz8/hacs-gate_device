@@ -1,6 +1,6 @@
 """Constants for the Hexagonal Gate integration."""
 
-DOMAIN = "hex_gate"
+DOMAIN = "sliding_gate_controller"
 SWITCH_DOMAIN = "switch"
 SERVICE_TURN_ON = "turn_on"
 SERVICE_TURN_OFF = "turn_off"
